@@ -1,0 +1,28 @@
+{
+"name": "carolbarbosa101/phptips001",
+"description": "Conhecendo o composer e configurando IDE | PHP Tips #001",
+"minimum-stability": "stable",
+"license": "MIT",
+"authors": [
+        {
+            "name": "Caroline Barbosa",
+            "email": "cmp.1a.caroline@gmail.com",
+            "role": "Developer Full Stack",
+            "homepage": "https://github.com/carolbarbosa101"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "6.0.*"
+    }
+}
